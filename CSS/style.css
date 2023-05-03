@@ -100,9 +100,12 @@ footer {
 button {
     font-family: Raleway;
 }
-.caseStudiesButton {
+.allProjectsButton {
     background-color: #71afbb;
     color: white;
+    padding: 1%;
+    font-size: 14px;
+    border-radius: 8px;
 }
 @media only screen and (max-width: 600px) { 
     .flexContainer {
@@ -110,5 +113,13 @@ button {
     }
     .userResearch, .contentStrategy, .userInterface {
         width: 100%;
+    }
+    .wellRead {
+        display: grid;
+        grid-template-rows: 25% 75%;
+    }
+    .deptEd {
+        display: grid;
+        grid-template-rows: 25% 75%;
     }
 }
